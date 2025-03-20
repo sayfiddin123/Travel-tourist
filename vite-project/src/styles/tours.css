@@ -1,0 +1,42 @@
+.tours-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tours-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter-select {
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #007bff;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Har bir qatorga mos keladigan 300px+ kartalar */
+    gap: 20px;
+    justify-content: center;
+  }
+  
